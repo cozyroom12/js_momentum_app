@@ -15,7 +15,7 @@ function onLoginSubmit(event){
     greetings.classList.remove(HIDDEN_CLASSNAME);
 }
 
-function paintGreetings() {}
+// function paintGreetings() {}
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 console.log(savedUsername);
